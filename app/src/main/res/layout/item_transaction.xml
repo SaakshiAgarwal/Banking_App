@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linearlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_weight="1.5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:background="@drawable/rect"
+        android:text="Name"
+        android:lines="2"
+        android:gravity="center"
+        android:padding="3dp"/>
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_weight="1.5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:background="@drawable/rect"
+        android:gravity="center"
+        android:lines="2"
+        android:text="Email"
+        android:padding="3dp"/>
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:lines="2"
+        android:background="@drawable/rect"
+        android:gravity="center"
+        android:text="Balance"
+        android:padding="3dp"/>
+
+</LinearLayout>

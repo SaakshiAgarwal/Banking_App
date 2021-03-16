@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.cardview.widget.CardView-->
+<!--    android:layout_width="match_parent"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:background="@drawable/rectround"-->
+<!--    android:layout_marginHorizontal="10dp"-->
+<!--    android:layout_marginVertical="8dp"-->
+<!--    app:cardCornerRadius="5dp">-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="15dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectround_light"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16dp"
+        android:text="Name"
+        android:textColor="#00316E"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#00316E"
+        android:textSize="16dp"
+        android:text="Email"
+        android:padding="3dp"/>
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#00316E"
+        android:textSize="16dp"
+        android:text="Balance"
+        android:padding="3dp"/>
+
+
+</LinearLayout>
+</LinearLayout>
+<!--</androidx.cardview.widget.CardView>-->
